@@ -1,6 +1,10 @@
 <template>
   <div id="app">
+    <router-link to='/recursos' class="navbar-item" exact>Recursos</router-link>
+    <router-link to='/preco' class="navbar-item" exact>Preço</router-link>
+    
     <img src="./assets/logo.png">
+    
     <router-view/>
   </div>
 </template>

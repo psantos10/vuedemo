@@ -2,7 +2,7 @@
 lock "~> 3.10.0"
 
 set :application, "vudedemo"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:psantos10/vuedemo.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
